@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Tratamiento de conducto",
+    "duration": 60,
+    "price": 300000,
+    "category": "Endodoncia",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Extracción",
+    "duration": 60,
+    "price": 200000,
+    "category": "OdontologíaGeneral",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Prótesis remobible",
+    "duration": 60,
+    "price": 1300000,
+    "category": "ortodoncia",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Blanqueamento láser",
+    "duration": 60,
+    "price": 80000,
+    "category": "OdontologíaGeneral",
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Incrustación",
+    "duration": 60,
+    "price": 300000,
+    "category": "Endodoncia",
+    "available": true
+  }
+]

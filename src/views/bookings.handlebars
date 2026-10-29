@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Listado de Reservas y Disponibilidad</h1>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Reserva</th>
+                    <th>Detalle / Servicio</th>
+                    <th>Fecha / Horario</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="bookings-container">
+                {{#each bookings}}
+                <tr>
+                    <td>{{this._id}}</td>
+                    <td>{{this.serviceName}}</td>
+                    <td>{{this.date}}</td>
+                    <td>{{this.status}}</td>
+                </tr>
+                {{else}}
+                <tr>
+                    <td colspan="4">No hay reservas registradas en el sistema.</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>

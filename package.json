@@ -1,0 +1,28 @@
+{
+  "name": "backend-turnos-reservas",
+  "version": "1.0.0",
+  "description": "Sistema backend de turnos y reservas con Node.js, Express y MongoDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "backend",
+    "reservas",
+    "turnos"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.3.0",
+    "express-handlebars": "^9.0.4",
+    "mongoose": "^9.11.4",
+    "socket.io": "^4.8.4"
+  }
+}
